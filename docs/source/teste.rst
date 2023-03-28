@@ -1,26 +1,27 @@
-## Teste
+Teste
+=====
 
-Esta é uma página de teste que estou adicionando ao readthedocs.org
+.. _installation:
 
-### Sobre esta página
+Como criar títulos
+------------------
 
-Esta página foi gerada através de markdown.
+Para iniciar o servidor de desenvolvimento:
 
-### Podemos gerar código
+.. code-block:: console
 
-```
-tudo o que escrevermos aqui vai parecer código
-```
+   (.venv) $ python manage.py runserver
 
-### Este é um teste para ver com fica o tab:
+Para abrir o shell do Django:
 
-	É deste modo que a indentação fica
+.. code-block:: console
 
-### Podemos intercalar texto com código:
+   (.venv) $ python manage.py shell
 
-Quando o fazemos, aparentemente fica ``assim`` 
+Importando Models 
+-----------------
 
-### Podemos importar código do shell do Python:
+Para importarmos o model ``Gene`` e instanciar um objeto:
 
 >>> from brpcw4mb.models.molecular_components_import Gene
 >>> q = Gene.objects.all()
